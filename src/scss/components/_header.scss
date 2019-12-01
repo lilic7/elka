@@ -4,5 +4,68 @@
     justify-content: space-between;
     align-items: center;
     min-height: 105px;
+
+    &__contacts{
+      display: flex;
+      justify-content: flex-end;
+
+      &-actions{
+        margin-left: 40px;
+      }
+    }
+
+    &__text{
+      text-align: right;
+      margin-bottom: 10px;
+    }
+
+    &__phone{
+      font-size: 18px;
+      font-weight: bold;
+      max-width: 170px;
+      text-align: right;
+      a{
+        color: #000;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+
+    &__email{
+      text-align: right;
+      margin-bottom: 15px;
+
+      a{
+        color: #368c02;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+      }
+    }
+  }
+}
+
+.nav-menu__wrapper{
+  max-height: 40px;
+  background-color: $accent-color;
+
+  .nav-menu{
+    max-width: 660px;
+    height: 40px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    li{
+
+      a{
+        color: #fff;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 18px;
+      }
+    }
   }
 }
