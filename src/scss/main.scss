@@ -1,5 +1,3 @@
-@import "bourbon";
-
 *::-webkit-input-placeholder {
 	color: #666;
 	opacity: 1;
@@ -30,7 +28,9 @@ body textarea:required:valid {
 }
 
 //Custom Styles Here
-
+@import "variables";
+@import "global";
+@import "components/header";
 
 //ALWAYS END
 @import "media";

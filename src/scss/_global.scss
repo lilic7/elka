@@ -1,0 +1,22 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+.container-o {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.btn-o {
+  border-radius: 5px;
+  background-image: -moz-linear-gradient(90deg, rgb(100, 0, 0) 3%, rgb(140, 2, 2) 5%, rgb(227, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(100, 0, 0) 3%, rgb(140, 2, 2) 5%, rgb(227, 0, 0) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(100, 0, 0) 3%, rgb(140, 2, 2) 5%, rgb(227, 0, 0) 100%);
+  box-shadow: 0px 5px 10px 0px rgba(0, 1, 3, 0.17);
+  width: 180px;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+}
