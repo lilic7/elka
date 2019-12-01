@@ -4,3 +4,4 @@ package-lock.json
 sass
 app
 src/libs
+*.psd
