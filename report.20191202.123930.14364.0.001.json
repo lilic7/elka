@@ -1,0 +1,407 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191202.123930.14364.0.001.json",
+    "dumpEventTime": "2019-12-02T12:39:30Z",
+    "dumpEventTimeStamp": "1575283170186",
+    "processId": 14364,
+    "cwd": "C:\\project\\elka",
+    "commandLine": [
+      "node",
+      "C:\\Users\\User\\AppData\\Roaming\\npm\\\\node_modules\\gulp-cli\\bin\\gulp.js"
+    ],
+    "nodejsVersion": "v12.7.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.7.0",
+      "v8": "7.5.288.22-node.16",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.1",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.7.0/node-v12.7.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.7.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      },
+      {
+        "model": "AMD Ryzen 5 2600 Six-Core Processor            ",
+        "speed": 3850,
+        "user": 5174593,
+        "nice": 0,
+        "sys": 2085859,
+        "idle": 82159468,
+        "irq": 372390
+      }
+    ],
+    "host": "Lilic-HOME"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6eed16b89",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10841"
+    },
+    {
+      "pc": "0x00007ff6eed1a4fc",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25548"
+    },
+    {
+      "pc": "0x00007ff6eed194a8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21368"
+    },
+    {
+      "pc": "0x00007ff6eee033db",
+      "symbol": "v8::base::CPU::has_sse+37691"
+    },
+    {
+      "pc": "0x00007ff6ef5ea3de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6ef5d272a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff6ef463e3c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6ef46bd5f",
+      "symbol": "v8::internal::Heap::OldGenerationSizeOfObjects+4879"
+    },
+    {
+      "pc": "0x00007ff6ef462003",
+      "symbol": "v8::internal::Heap::CollectGarbage+1235"
+    },
+    {
+      "pc": "0x00007ff6ef460894",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2292"
+    },
+    {
+      "pc": "0x00007ff6ef47f375",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff6ef2356ed",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3757"
+    },
+    {
+      "pc": "0x00007ff6efa0982d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x0000011c5e7f5a34",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153922560,
+    "totalCommittedMemory": 2153922560,
+    "usedMemory": 2142337112,
+    "availableMemory": 48276952,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 4194304,
+        "capacity": 2094656,
+        "used": 150824,
+        "available": 1943832
+      },
+      "old_space": {
+        "memorySize": 2019700736,
+        "committedMemory": 2019700736,
+        "capacity": 2013578336,
+        "used": 2013462480,
+        "available": 115856
+      },
+      "code_space": {
+        "memorySize": 1474560,
+        "committedMemory": 1474560,
+        "capacity": 1267680,
+        "used": 1267680,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2363392,
+        "committedMemory": 2363392,
+        "capacity": 1630640,
+        "used": 1630640,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 125304832,
+        "committedMemory": 125304832,
+        "capacity": 125243224,
+        "used": 125243224,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550304,
+        "used": 550304,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2094656,
+        "used": 0,
+        "available": 2094656
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 222.75,
+    "kernelCpuSeconds": 230.187,
+    "cpuConsumptionPercent": 10.1283,
+    "maxRss": 5434798080,
+    "pageFaults": {
+      "IORequired": 2885875,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 8443,
+      "writes": 238
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\project\\elka",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMDRMSDKPATH": "C:\\Program Files\\AMD\\RyzenMasterSDK\\",
+    "ANDROID_HOME": "C:\\Users\\User\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\User\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132019006351101541",
+    "CLASSPATH": ".;",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LILIC-HOME",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\User",
+    "IDEA_INITIAL_DIRECTORY": "F:\\JetBrains\\apps\\PhpStorm\\ch-0\\193.5233.101\\bin",
+    "INIT_CWD": "C:\\project\\elka",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "LOCALAPPDATA": "C:\\Users\\User\\AppData\\Local",
+    "LOGONSERVER": "\\\\LILIC-HOME",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "MOZ_PLUGIN_PATH": "C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\Foxit Reader\\plugins\\",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\User\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Python27\\;C:\\Python27\\Scripts;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\laragon-wamp\\bin\\php\\php-7.2.11-Win32-VC15-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\User\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts\\;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python37-32\\;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;;D:\\PhpStorm 2018.3.2\\bin;;C:\\Users\\User\\AppData\\Local\\Yarn\\bin;C:\\Users\\User\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\User\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PhpStorm": "D:\\PhpStorm 2018.3.2\\bin;",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0802",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Intel\\Wired Networking\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LILIC-HOME",
+    "USERDOMAIN_ROAMINGPROFILE": "LILIC-HOME",
+    "USERNAME": "User",
+    "USERPROFILE": "C:\\Users\\User",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "\\\\?\\C:\\project\\elka\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

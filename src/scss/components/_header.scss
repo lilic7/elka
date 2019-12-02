@@ -1,5 +1,5 @@
-.header{
-  &-top{
+.header-top,
+.footer-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,6 @@
       }
     }
   }
-}
 
 .nav-menu__wrapper{
   max-height: 40px;
@@ -52,8 +51,6 @@
   .nav-menu{
     max-width: 660px;
     height: 40px;
-    list-style: none;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

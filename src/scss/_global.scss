@@ -24,6 +24,18 @@ body{
   letter-spacing: 1px;
 }
 
+.title-o{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 h1{
   font-size: 50px;
 }
@@ -33,10 +45,24 @@ h2{
 }
 
 h3{
+  font-size: 36px;
+}
+
+h4{
   font-size: 30px;
 }
 
-
 .bold{
   font-weight: bold;
+}
+
+.input-o{
+  height: 55px;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding-left: 18px;
+  &::placeholder{
+    font-style: italic;
+  }
 }

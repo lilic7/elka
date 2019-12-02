@@ -1,0 +1,36 @@
+.about{
+  margin: 80px 0;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  &__title{
+    margin-bottom: 80px;
+  }
+
+  &__item{
+    padding-top: 130px;
+    font-size: 18px;
+    max-width: 220px;
+    letter-spacing: .5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    &-title{
+      font-weight: bold;
+    }
+    &-1{
+      background-image: url("../images/about-1.png");
+    }
+    &-2{
+      background-image: url("../images/about-2.png");
+    }
+    &-3{
+      background-image: url("../images/about-3.png");
+    }
+    &-4{
+      background-image: url("../images/about-4.png");
+    }
+  }
+}

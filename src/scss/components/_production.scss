@@ -1,0 +1,30 @@
+.production{
+  background-image: url("../images/production-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 80px 0;
+
+  &__title{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 80px;
+  }
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+
+    &-title{
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      padding-top: 20px;
+    }
+  }
+}

@@ -32,6 +32,11 @@ body textarea:required:valid {
 @import "global";
 @import "components/header";
 @import "components/hero";
+@import "components/about";
+@import "components/offer";
+@import "components/reviews";
+@import "components/production";
+@import "components/footer";
 
 //ALWAYS END
 @import "media";
